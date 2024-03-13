@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Load the data using the updated caching mechanism
 @st.cache_data
 def load_data():
-    data = pd.read_csv('all_data.csv')
+    data = pd.read_csv('https://raw.githubusercontent.com/belajarcarabelajar/data-analisis-bcbacademy/master/dashboard/all_data.csv')
 
     return data
 
